@@ -24,6 +24,11 @@ public abstract class Member {
         return name;
     }
 
+    public List<Book> getBorrowedBooks() {
+        return borrowedBooks;
+    }
+
+
     /// getMaxBooks is abstract to allow students and staff members to borrow different amounts of books
     public abstract int getMaxBooks();
 

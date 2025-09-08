@@ -6,7 +6,7 @@ public class Book {
     private String author;
     private boolean available;
 
-    ///constuctor for book details
+    ///constructor for book details
     public Book(int id, String title, String author) {
         this.id = id;
         this.title = title;
@@ -31,6 +31,7 @@ public class Book {
     public void setAvailable(boolean available) {
         this.available = available; }
 
+    public boolean isBorrowed() { return !available; }
 
     @Override
     public String toString() {

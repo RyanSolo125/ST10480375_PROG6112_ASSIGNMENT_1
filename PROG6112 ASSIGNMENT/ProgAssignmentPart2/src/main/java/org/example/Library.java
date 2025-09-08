@@ -22,7 +22,7 @@ public class Library {
     }
 
 
-    ///generating library report
+    ///creating library report
     public void generateReport() {
         System.out.println("========= Library Report =========");
         System.out.println("Total Books: " + books.size());
